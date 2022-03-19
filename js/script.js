@@ -74,7 +74,7 @@ function drawNet() {
 
 // function to draw score
 function drawScore(x, y, score) {
-  ctx.fillStyle = '#fff';
+  ctx.fillStyle = 'dodgerblue';
   ctx.font = '35px sans-serif';
 
   // syntax --> fillText(text, x, y)
@@ -248,11 +248,10 @@ function update() {
   }
 }
 
-
 // render function draws everything on to canvas
 function render() {
   // set a style
-  ctx.fillStyle = "#000"; /* whatever comes below this acquires black color (#000). */
+  ctx.fillStyle = "#c0ffee"; /* whatever comes below this acquires black color (#000). */
   // draws the black board
   ctx.fillRect(0, 0, canvas.width, canvas.height);
 
